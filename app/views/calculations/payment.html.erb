@@ -1,0 +1,6 @@
+<h1>Monthly Payment </h1>
+<h2>
+  The payment is
+  <%= number_to_percentage(@rate*12*100,precision: 4) %> <%= @n %> <%= @pv %> <%= number_to_currency(@payment) %>
+  <%#= @squared_number %>
+</h2>

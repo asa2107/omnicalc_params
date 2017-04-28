@@ -1,0 +1,7 @@
+<h1>Flexible payment</h1>
+
+<h2>
+  The payment is
+  <%= number_to_percentage(@rate*12*100,precision: 2) %> <%= @n %> <%= @pv %> <%= number_to_currency(@payment) %>
+  <%#= @squared_number %>
+</h2>
